@@ -8,6 +8,8 @@ import Calender from "@/components/core/Calender";
 import Achievements from "@/components/core/Achievements";
 import Customer from "@/components/core/Customer";
 import CommunityUpdate from "@/components/core/CommunityUpdate";
+import { Footer } from "@/components/common/Footer";
+import SubFooter from "@/data/SubFooter";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Calender />
       <Customer />
       <CommunityUpdate />
+      <SubFooter />
+      <Footer />
 
     </div>
 
