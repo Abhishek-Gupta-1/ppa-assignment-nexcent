@@ -1,0 +1,30 @@
+export const ClientsData = [
+    {
+        alt:'Client1',
+        src:'/clients/Client1.png',
+    },
+    {
+        alt:'Client2',
+        src:'/clients/Client2.png',
+    },
+    {
+        alt:'Client3',
+        src:'/clients/Client3.png',
+    },
+    {
+        alt:'Client4',
+        src:'/clients/Client4.png',
+    },
+    {
+        alt:'Client5',
+        src:'/clients/Client5.png',
+    },
+    {
+        alt:'Client6',
+        src:'/clients/Client6.png',
+    },
+    {
+        alt:'Client7',
+        src:'/clients/Client7.png',
+    },
+]
