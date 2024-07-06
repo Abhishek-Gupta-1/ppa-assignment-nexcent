@@ -4,7 +4,7 @@ import { Hero } from "@/components/core/Hero";
 import { Clients } from "@/components/core/Clients";
 import Community from "@/components/core/Community";
 import Unlock from "@/components/core/Unlock";
-// import Calender from "@/components/core/Calender";
+import Calender from "@/components/core/Calender";
 import Achievements from "@/components/core/Achievements";
 
 export default function Home() {
@@ -15,8 +15,8 @@ export default function Home() {
       <Clients />
       <Community />
       <Unlock />
-      {/* <Calender /> */}
       <Achievements />
+      <Calender />
 
     </div>
 
