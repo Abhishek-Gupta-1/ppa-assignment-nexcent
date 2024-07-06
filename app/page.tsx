@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Hero } from "@/components/core/Hero";
 import { Clients } from "@/components/core/Clients";
 import Community from "@/components/core/Community";
+import Unlock from "@/components/core/Unlock";
+import Calender from "@/components/core/Calender";
 
 export default function Home() {
   return (
@@ -11,6 +13,9 @@ export default function Home() {
       <Hero />
       <Clients />
       <Community />
+      <Unlock />
+      <Calender />
+
     </div>
 
 
