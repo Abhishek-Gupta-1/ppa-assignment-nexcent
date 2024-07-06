@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const HeroPage = () => {
+export const Hero = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gray-100">
             <div className="text-pretty">
@@ -18,7 +18,7 @@ export const HeroPage = () => {
                 </button>
             </div>
             <div className="ml-16">
-                <Image src="/illustration.png" alt="Illustration" width={400} height={400} />
+                <Image src="/hero/illustration1.png" alt="Illustration" width={400} height={400} />
             </div>
         </div>
     );

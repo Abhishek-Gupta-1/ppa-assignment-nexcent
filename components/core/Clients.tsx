@@ -5,7 +5,7 @@ import { ClientsData } from "@/data/ClientsData"
 
 export const Clients = () => {
     return (
-        <div className="min-h-screen bg-white">
+        
             <section className="py-12">
                 <h2 className="text-5xl font-bold text-center text-gray-700">Our Clients</h2>
                 <p className="mt-2 text-center text-gray-600 text-lg">We have been working with some Fortune 500+ clients</p>
@@ -15,7 +15,7 @@ export const Clients = () => {
                     ))}
                 </div>
             </section>
-        </div>
+        
     )
 }
 
