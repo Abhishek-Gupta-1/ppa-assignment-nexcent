@@ -6,7 +6,7 @@ export default function Home() {
   return (
 
     <div className="pt-20 h-screen w-full">
-      {/* <HeroPage /> */}
+      <HeroPage />
     </div>
 
 
