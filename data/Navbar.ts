@@ -1,0 +1,26 @@
+export const Navlinks = [
+    {
+        title:'Home',
+        href:'/',
+    },
+    {
+        title:'Service',
+        href:'/',
+    },
+    {
+        title:'Feature',
+        href:'/',
+    },
+    {
+        title:'Product',
+        href:'/',
+    },
+    {
+        title:'Testimonial',
+        href:'/',
+    },
+    {
+        title:'FAQ',
+        href:'/',
+    },
+]
