@@ -3,6 +3,7 @@ import { Navlinks } from "@/data/Navbar";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ModeToggle } from "../ui/ModeToggle";
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,32 +16,34 @@ export const Navbar = () => {
         <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="flex gap-2">
-                    <div className="h-10 w-40 relative overflow-hidden rounded-full border-2 border-white/70">
+                    <div className="h-8 w-12 relative overflow-hidden  ">
                         <Image
                             alt="Logo"
                             fill
-                            src="/logo.svg"
+                            src="/logo.png"
                             className="object-contain object-center"
                         />
                     </div>
-                    <h2 className="md:text-2xl font-bold text-white mt-2 md:mt-1">Nexcent</h2>
+                    <h2 className=" text-3xl  font-extrabold text-gray-800 dark:text-white ">Nexcent</h2>
                 </Link>
 
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <div className="gap-x-20">
                         <button
                             type="button"
-                            className="text-[#4CAF4F] bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                            className="text-[#4CAF4F] bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-2 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                         >
                             Login
                         </button>
 
                         <button
                             type="button"
-                            className="text-white bg-[#4CAF4F] hover:bg-[#29932c] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-[#4CAF4F] dark:hover:bg-[#4CAF4F] dark:focus:ring-blue-800"
+                            className="mr-1 text-white bg-[#4CAF4F] hover:bg-[#29932c] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-[#4CAF4F] dark:hover:bg-[#4CAF4F] dark:focus:ring-blue-800"
                         >
                             Signup
                         </button>
+                        <ModeToggle />
+
                     </div>
                     <button
                         onClick={toggleMenu}

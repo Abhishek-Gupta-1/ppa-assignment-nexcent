@@ -6,13 +6,13 @@ import React from 'react'
 export const Footer = () => {
     return (
 
-        <div className='relative flex flex-col md:flex-row justify-around md:gap-5 w-full  p-5 bg-AthensGray text-white  pb-[60px] bg-[#263238]'>
+        <div className='relative flex flex-col md:flex-row justify-around md:gap-5 w-full  p-5 text-white  pb-[60px] bg-[#263238]'>
 
             <div className=' flex flex-col justify-between '>
                 <div className=' flex flex-col md:p-5 justify-between '>
                     <div className='flex gap-2 items-center '>
 
-                        <Image alt='logo' width={100} height={100} src='/footer-logo.png' className='h-10 w-44' />
+                        <Image alt='logo' width={100} height={80} src='/footer-logo.png' className='h-8 w-44' />
                     </div>
                     <div className=' mt-5'>
                     </div>

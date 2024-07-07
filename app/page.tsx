@@ -14,7 +14,7 @@ import SubFooter from "@/data/SubFooter";
 export default function Home() {
   return (
 
-    <div className="pt-20 h-screen w-screen  bg-white text-gray-700">
+    <div className="pt-20 h-screen w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
       <Hero />
       <Clients />
       <Community />
