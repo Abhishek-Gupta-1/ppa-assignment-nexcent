@@ -1,15 +1,12 @@
-import { ModeToggle } from "@/components/ui/ModeToggle";
-import Image from "next/image";
-import { Hero } from "@/components/core/Hero";
-import { Clients } from "@/components/core/Clients";
+import { Hero, SubFooter } from "@/components/core";
+import Clients from "@/components/core/Clients";
 import Community from "@/components/core/Community";
 import Unlock from "@/components/core/Unlock";
 import Calender from "@/components/core/Calender";
 import Achievements from "@/components/core/Achievements";
 import Customer from "@/components/core/Customer";
 import CommunityUpdate from "@/components/core/CommunityUpdate";
-import { Footer } from "@/components/common/Footer";
-import SubFooter from "@/data/SubFooter";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   return (

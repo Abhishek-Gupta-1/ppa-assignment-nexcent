@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ModeToggle } from "../ui/ModeToggle";
 
-export const Navbar = () => {
+const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -90,3 +90,5 @@ export const Navbar = () => {
         </nav>
     );
 };
+
+export default Navbar;

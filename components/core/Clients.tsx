@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { ClientsData } from "@/data/ClientsData"
 
-export const Clients = () => {
+const Clients = () => {
     return (
 
         <section className="py-12">
@@ -18,4 +18,6 @@ export const Clients = () => {
 
     )
 }
+
+export default Clients;
 

@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
 import { ClientsData } from '@/data/ClientsData'
@@ -31,7 +32,8 @@ const Customer = () => {
     )
 }
 
-export default Customer
+export default Customer;
+
 
 
 

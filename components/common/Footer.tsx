@@ -1,9 +1,11 @@
+"use client";
 import { Company, Support } from '@/data/Footer'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { deflate } from 'zlib';
 
-export const Footer = () => {
+const Footer = () => {
     return (
 
         <div className='relative flex flex-col md:flex-row justify-around md:gap-5 w-full  p-5 text-white  pb-[60px] bg-[#263238]'>
@@ -53,3 +55,5 @@ export const Footer = () => {
 
     )
 }
+
+export default Footer;
