@@ -1,4 +1,3 @@
-"use client";
 import React from 'react'
 import Image from 'next/image'
 import { ClientsData } from '@/data/ClientsData'
@@ -23,7 +22,7 @@ const Customer = () => {
 
                         ))}
                         <button className="py-2 text-green-500">
-                        Meet all customers→
+                            Meet all customers→
                         </button>
                     </div>
                 </div>
