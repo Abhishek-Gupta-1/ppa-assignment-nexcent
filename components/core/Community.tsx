@@ -6,7 +6,7 @@ import { CommunityData } from '@/data/Community';
 const Community = () => {
     return (
 
-        <section className="py-12 bg-gray-300">
+        <section className="py-12 ">
             <h2 className="text-3xl font-bold text-center ">Manage your entire community <span className='block'>in a single system</span></h2>
             <p className="mt-2 text-center dark:text-gray-200">Who is Nextcent suitable for?</p>
 
