@@ -11,19 +11,25 @@ import Footer from "@/components/common/Footer";
 export default function Home() {
   return (
 
-    <div className="pt-20 h-screen w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
-      <Hero />
-      <Clients />
-      <Community />
-      <Unlock />
-      <Achievements />
-      <Calender />
-      <Customer />
-      <CommunityUpdate />
-      <SubFooter />
-      <Footer />
+    <main className="flex min-h-screen flex-col">
+      <div className="pt-20 h-screen w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
+        <div className='border max-w-screen'>
+          <div className='w-full'>
+            <Hero />
+            <Clients />
+            <Community />
+            <Unlock />
+            <Achievements />
+            <Calender />
+            <Customer />
+            <CommunityUpdate />
+            <SubFooter />
+            <Footer />
 
-    </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
 
   );
