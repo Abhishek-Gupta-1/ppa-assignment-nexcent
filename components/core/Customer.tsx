@@ -6,8 +6,8 @@ const Customer = () => {
     return (
         <section className="py-12 bg-gray-100 dark:bg-gray-900 flex items-center">
             <div className="container mx-auto flex">
-                <div className="w-1/2 flex justify-start">
-                    <Image src="/customer/customer.png" alt="Main Image" width={500} height={500} />
+                <div className="w-1/2 lg:md:flex justify-center sm:hidden">
+                    <Image src="/customer/customer.png" alt="Main Image" width={300} height={300} />
                 </div>
                 <div className="w-3/4 text-left mx-auto max-w-3xl">
                     <p className=" mt-4">
@@ -16,7 +16,7 @@ const Customer = () => {
                     <p className="mt-6 text-xl font-bold text-green-500">Tim Smith</p>
                     <p className="">British Dragon Boat Racing Association</p>
 
-                    <div className="mt-6 flex justify-center gap-x-12">
+                    <div className="mt-6 flex justify-center lg:gap-x-12 md:gap-x-4">
                         {ClientsData.map((data) => (
                             <Image key={data.alt} src={data.src} alt={data.alt} width={30} height={30} className='w-8 h-8' />
 

@@ -7,7 +7,7 @@ const CommunityUpdate = () => {
         <section className="py-12 text-center pb-32">
             <h2 className="text-4xl font-bold">Caring is the new marketing</h2>
             <p className="mt-2 dark:text-gray-200 max-w-xl mx-auto">
-                The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who joining the community, read about how our community are increasing their membership income and lot's more.
+                The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who joining the community, read about how our community are increasing their membership income and lots more.
             </p>
 
             <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 mx-40">
