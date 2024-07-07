@@ -4,8 +4,8 @@ import Image from 'next/image';
 export const Hero = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 p-4 lg:p-0">
-            <div className="text-pretty text-center lg:text-left">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+            <div className="text-pretty lg:text-left">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
                     Lessons and insights
                     <span className="block text-green-500">from 8 years</span>
                 </h1>

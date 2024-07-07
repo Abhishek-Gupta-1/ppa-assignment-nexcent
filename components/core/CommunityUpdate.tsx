@@ -10,7 +10,7 @@ const CommunityUpdate = () => {
                 The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who joining the community, read about how our community are increasing their membership income and lots more.
             </p>
 
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 mx-40">
+            <div className="mt-8 grid lg:grid-cols-3 md:grid-cols-2 gap-6  sm:mx-7">
                 {CommunityUpdateData.map((data) => (
                     <div key={data.id} className="relative ">
                         <div className="bg-white p-6 shadow rounded-lg py-12">
