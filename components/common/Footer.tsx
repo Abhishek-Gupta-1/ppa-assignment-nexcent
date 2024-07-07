@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className=' flex flex-col md:p-5 justify-between '>
                     <div className='flex gap-2 items-center '>
 
-                        <Image alt='logo' width={100} height={80} src='/footer-logo.png' className='h-8 w-44' />
+                        <Image alt='logo' width={100} height={80} src='/footer/footer-logo.png' className='h-8 w-44' />
                     </div>
                     <div className=' mt-5'>
                     </div>

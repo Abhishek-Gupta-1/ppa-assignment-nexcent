@@ -14,14 +14,14 @@ export default function Home() {
     <div className="pt-20 h-screen w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
       <Hero />
       <Clients />
-      <Community />
+      {/*  <Community />
       <Unlock />
       <Achievements />
       <Calender />
       <Customer />
       <CommunityUpdate />
       <SubFooter />
-      <Footer />
+      <Footer /> */}
 
     </div>
 
