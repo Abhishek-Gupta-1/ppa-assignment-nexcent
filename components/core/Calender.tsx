@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import SplitSection from '../common/SplitSection';
 import useSectionStore from '@/store/useSectionStore';
+import {images} from '@/data/Cdn'
 
 const Calender: React.FC = () => {
     const setSection = useSectionStore((state) => state.setSection);
@@ -9,7 +10,7 @@ const Calender: React.FC = () => {
 
     useEffect(() => {
         setSection('calender', {
-            imageSrc: '/calender/illustration3.png',
+            imageSrc: images.calender,
             imageAlt: 'Illustration3',
             title: 'How to design your site footer like we did',
             description:

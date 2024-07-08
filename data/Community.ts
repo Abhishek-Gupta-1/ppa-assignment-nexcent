@@ -1,19 +1,21 @@
+import {images} from './Cdn'
+
 export const CommunityData = [
     {
         id: '1',
-        image:'/community/icon1.png',
+        image: images.community1,
         title:'Membership Organisations',
         detail: 'Our membership management software provides full automation of membership renewals and payments'
     },
     {
         id: '2',
-        image:'/community/icon2.png',
+        image: images.community2,
         title:'National Associations',
         detail: 'Our membership management software provides full automation of membership renewals and payments'
     },
     {
         id: '3',
-        image:'/community/icon3.png',
+        image: images.community3,
         title:'Clubs And Groups',
         detail: 'Our membership management software provides full automation of membership renewals and payments'
     },

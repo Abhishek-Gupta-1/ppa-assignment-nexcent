@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import SplitSection from '../common/SplitSection';
 import useSectionStore from '@/store/useSectionStore';
+import { images } from '@/data/Cdn'
 
 const Unlock: React.FC = () => {
     const setSection = useSectionStore((state) => state.setSection);
@@ -9,7 +10,7 @@ const Unlock: React.FC = () => {
 
     useEffect(() => {
         setSection('unlock', {
-            imageSrc: '/unlock/illustration2.png',
+            imageSrc: images.unlock,
             imageAlt: 'Illustration',
             title: 'The unseen of spending three years at Pixelgrade',
             description:

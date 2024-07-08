@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ModeToggle } from "../ui/ModeToggle";
+import { images } from "@/data/Cdn"
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
                         <Image
                             alt="Logo"
                             fill
-                            src="/navbar/logo.png"
+                            src={images.navlogo}
                             className="object-contain object-center"
                         />
                     </div>
