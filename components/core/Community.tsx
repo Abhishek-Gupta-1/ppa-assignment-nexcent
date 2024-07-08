@@ -16,8 +16,8 @@ const Community = () => {
 
                     <div key={data.title}>
                         <div className="bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-100 p-6 shadow rounded-lg text-center">
-                            <div className="bg-green-100 p-4 rounded-full inline-block mb-4">
-                                <Image src={data.image} alt="Icon 1" width={32} height={32} />
+                            <div className=" p-4 inline-block mb-4">
+                                <Image src={data.image} alt="Icon 1" width={50} height={50} />
                             </div>
                             <h3 className="text-xl font-semibold">{data.title}</h3>
                             <p className="mt-2 ">{data.detail}</p>
