@@ -14,12 +14,12 @@ const Carousel = () => {
                     <div className="text-pretty lg:text-left mt-12 mx-12 pt-12">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
                             {slide.title}
-                            <span className="block text-green-500">{slide.subtitle}</span>
+                            <span className="block text-[#4CAF4F]">{slide.subtitle}</span>
                         </h1>
                         <p className="mt-4 text-xs md:text-sm lg:text-base">
                             {slide.description}
                         </p>
-                        <button className={`mt-6 px-4 md:px-6 py-2 ${slide.buttonColor} rounded-sm`}>
+                        <button className={`mt-6 px-4 md:px-6 py-2 ${slide.buttonColor} hover:bg-green-700 hover:text-white rounded-sm`}>
                             {slide.buttonText}
                         </button>
                     </div>

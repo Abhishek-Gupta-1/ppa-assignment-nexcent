@@ -26,7 +26,7 @@ const Achievements = () => {
             <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
                 <div className="text-left mb-8 md:mb-0">
                     <h2 className="lg:text-5xl md:text-3xl text-4xl font-bold mb-4">
-                        Helping a local <span className="text-green-500 block">business reinvent itself</span>
+                        Helping a local <span className="text-[#4CAF4F] block">business reinvent itself</span>
                     </h2>
                     <p className="text-lg md:text-xl">We reached here with our hard work and dedication</p>
                 </div>

@@ -6,7 +6,7 @@ const carouselData = [
     subtitle: "from 8 years",
     description: "Where to grow your business as a photographer: site or social media?",
     buttonText: "Register",
-    buttonColor: "bg-green-500",
+    buttonColor: "bg-[#4CAF4F]",
     imageSrc: "/hero/illustration1.png",
     imageAlt: "Illustration",
     bgColor: "bg-gray-100 dark:bg-gray-900"
@@ -16,7 +16,7 @@ const carouselData = [
     subtitle: "in Photography",
     description: "Discover the latest trends and techniques in the industry.",
     buttonText: "Learn",
-    buttonColor: "bg-green-500",
+    buttonColor: "bg-[#4CAF4F]",
     imageSrc: "/unlock/illustration2.png",
     imageAlt: "Illustration",
     bgColor: "bg-gray-100 dark:bg-gray-900"
@@ -26,7 +26,7 @@ const carouselData = [
     subtitle: "Starts Here",
     description: "Join our community of passionate photographers.",
     buttonText: "Join",
-    buttonColor: "bg-green-500",
+    buttonColor: "bg-[#4CAF4F]",
     imageSrc: "/calender/illustration3.png",
     imageAlt: "Illustration",
     bgColor: "bg-gray-100 dark:bg-gray-900"
