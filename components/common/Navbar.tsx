@@ -94,7 +94,7 @@ const Navbar = () => {
 
                             <button
                                 type="button"
-                                className="text-white bg-[#4CAF4F] hover:bg-[#29932c] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-[#4CAF4F] dark:hover:bg-[#4CAF4F] dark:focus:ring-blue-800 w-full text-left"
+                                className="text-white bg-[#4CAF4F] hover:bg-[#29932c] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-[#4CAF4F] dark:hover:bg-[#4CAF4F] dark:focus:ring-blue-800 w-full"
                             >
                                 Signup
                             </button>
