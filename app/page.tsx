@@ -12,8 +12,8 @@ import Carousel from "@/components/core/Carousel";
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col">
-      <div className="pt-20 h-screen w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
+    <main className="flex min-h-screen max-w-screen w-full flex-col">
+      <div className="pt-20 h-screen max-w-screen  bg-white dark:bg-black text-gray-700 dark:text-white">
         <div className='border max-w-screen'>
           <div className='w-full'>
             <Carousel />

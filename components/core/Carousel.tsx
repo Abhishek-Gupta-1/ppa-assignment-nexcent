@@ -10,7 +10,7 @@ const Carousel = () => {
     return (
         <AwesomeSlider animation="foldOutAnimation" className="h-[37rem] w-full">
             {carouseldata.map((slide, index) => (
-                <div key={index} className={` min-h-screen w-screen flex flex-col lg:flex-row items-center justify-center ${slide.bgColor} lg:p-0`}>
+                <div key={index} className={`min-h-screen w-screen flex flex-col lg:flex-row items-center justify-center ${slide.bgColor} lg:p-0`}>
                     <div className="text-pretty lg:text-left mt-12 mx-12 pt-12">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
                             {slide.title}

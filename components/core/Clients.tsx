@@ -5,7 +5,7 @@ import { ClientsData } from "@/data/ClientsData"
 const Clients = () => {
     return (
 
-        <section className="py-12">
+        <section className="py-12 mt-12">
             <h2 className="text-5xl font-bold text-center ">Our Clients</h2>
             <p className="mt-2 text-center text-lg dark:text-gray-200">We have been working with some Fortune 500+ clients</p>
             <div className='px-8 mx-8 '>

@@ -17,7 +17,7 @@ const carouselData = [
     description: "Discover the latest trends and techniques in the industry.",
     buttonText: "Learn",
     buttonColor: "bg-green-500",
-    imageSrc: "/hero/illustration1.png",
+    imageSrc: "/unlock/illustration2.png",
     imageAlt: "Illustration",
     bgColor: "bg-gray-100 dark:bg-gray-900"
   },
@@ -27,7 +27,7 @@ const carouselData = [
     description: "Join our community of passionate photographers.",
     buttonText: "Join",
     buttonColor: "bg-green-500",
-    imageSrc: "/hero/illustration1.png",
+    imageSrc: "/calender/illustration3.png",
     imageAlt: "Illustration",
     bgColor: "bg-gray-100 dark:bg-gray-900"
   }
