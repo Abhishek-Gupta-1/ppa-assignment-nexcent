@@ -1,4 +1,3 @@
-// import {Hero} from "@/components/core/Hero";
 import Clients from "@/components/core/Clients";
 import Community from "@/components/core/Community";
 import Unlock from "@/components/core/Unlock";
@@ -18,7 +17,6 @@ export default function Home() {
         <div className='border max-w-screen'>
           <div className='w-full'>
             <Carousel />
-            {/* <Hero /> */}
             <Clients />
             <Community />
             <Unlock />
