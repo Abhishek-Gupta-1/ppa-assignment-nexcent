@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 align-items-center gap-20 p-5 space-x-20 w-2/6'>
+            <div className='grid grid-cols-3 align-items-center gap-12 p-5 space-x-20 w-2/6'>
                
                
                 <div className='flex flex-col'>
@@ -44,6 +44,19 @@ const Footer = () => {
                         {
                             Support.map((link) => (
                                 <Link key={link.href} href={link.href} target='_blank'>
+                                    <p>{link.title}</p>
+                                </Link>
+                            ))
+                        }
+                    </div>
+                </div>
+
+                <div className='flex flex-col'>
+                    <h1 className='font-semibold text-2xl pb-6'>Company</h1>
+                    <div className='flex flex-col justify-evenly h-full gap-y-3'>
+                        {
+                            Company.map((link) => (
+                                <Link key={link.href} href={link.href}>
                                     <p>{link.title}</p>
                                 </Link>
                             ))
