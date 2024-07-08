@@ -22,7 +22,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 align-items-center gap-20 p-5  w-2/6'>
+            <div className='grid grid-cols-2 align-items-center gap-20 p-5 space-x-20 w-2/6'>
+               
+               
                 <div className='flex flex-col'>
                     <h1 className='font-semibold text-2xl pb-6'>Company</h1>
                     <div className='flex flex-col justify-evenly h-full gap-y-3'>
@@ -48,6 +50,9 @@ const Footer = () => {
                         }
                     </div>
                 </div>
+
+
+
             </div>
         </div>
 

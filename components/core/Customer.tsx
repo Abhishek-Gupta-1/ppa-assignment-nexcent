@@ -6,7 +6,7 @@ const Customer = () => {
     return (
         <section className="py-12 bg-gray-100 dark:bg-gray-900 flex items-center">
             <div className="container mx-auto flex">
-                <div className="w-1/2 lg:md:flex justify-center sm:hidden">
+                <div className="w-1/2 hidden lg:flex md:flex justify-center ">
                     <Image src="/customer/customer.png" alt="Main Image" width={300} height={300} />
                 </div>
                 <div className="w-3/4 text-left mx-auto max-w-3xl">
