@@ -22,9 +22,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 align-items-center gap-12 p-5 space-x-20 w-2/6'>
-               
-               
+            <div className='grid grid-cols-3 align-items-center gap-18 p-5 space-x-10 w-[50%]'>
+
+
                 <div className='flex flex-col'>
                     <h1 className='font-semibold text-2xl pb-6'>Company</h1>
                     <div className='flex flex-col justify-evenly h-full gap-y-3'>
@@ -52,20 +52,9 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col'>
-                    <h1 className='font-semibold text-2xl pb-6'>Company</h1>
-                    <div className='flex flex-col justify-evenly h-full gap-y-3'>
-                        {
-                            Company.map((link) => (
-                                <Link key={link.href} href={link.href}>
-                                    <p>{link.title}</p>
-                                </Link>
-                            ))
-                        }
-                    </div>
+                    <h1 className='font-semibold text-2xl pb-6'>Stay up to date</h1>
+                    <input type="email" name="email" id="collected-date" placeholder='Your email address' className='bg-[#525b60] px-6 py-2 rounded-md text-white' />
                 </div>
-
-
-
             </div>
         </div>
 
